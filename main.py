@@ -91,6 +91,25 @@ async def on_message(message):
         await message.channel.send("Şifreniz:")
         await message.channel.send(sifre_olusturucu(10))
 
+    elif message.content.startswith('$ yardım') or message.content.startswith('$ Yardım'):
+        await message.channel.send("Yardım menüsü:")
+        await message.channel.send("$ merhaba: Bot ile selamlaşabilirsiniz!")
+        await message.channel.send("$ nasılsın: Bot ile nasıl olduğunu sorabilirsiniz!")
+        await message.channel.send("$ bende iyiyim: Bot ile nasıl olduğunuzu belirtebilirsiniz!")
+        await message.channel.send("$ ben kötüyüm: Bot ile nasıl olduğunuzu belirtebilirsiniz!")
+        await message.channel.send("$ teşekkürler: Bot'a teşekkür edebilirsiniz!")
+        await message.channel.send("$ teşekkür ederim: Bot'a teşekkür edebilirsiniz!")
+        await message.channel.send("$ doğru: Bot'a doğru tahmin ettiğini belirtebilirsiniz!")
+        await message.channel.send("$ yanlış: Bot'a yanlış tahmin ettiğini belirtebilirsiniz!")
+        await message.channel.send("$ soru sor: Bot'a soru sorabilirsiniz!")
+        await message.channel.send("$ emoji: Bot'a rastgele emoji oluşturabilirsiniz!")
+        await message.channel.send("$ tahmin: Bot'a tahmin yapabilirsiniz!")
+        await message.channel.send("$ görüşürüz: Bot ile vedalaşabilirsiniz!")
+        await message.channel.send("$ yazı tura: Bot ile yazı tura oyunu oynayabilirsiniz!")
+        await message.channel.send("$ şifre: Bot'a rastgele şifre oluşturabilirsiniz!")
+        await message.channel.send("$ bot ne demek: Bot'un ne olduğunu öğrenebilirsiniz!")
+        await message.channel.send("$ yardım: Yardım menüsünü görebilirsiniz!")
+
 
     elif message.content.startswith('$ bot ne demek') or message.content.startswith('$ Bot ne demek'):
         await message.channel.send('Bot şu demektir: \U0001f600, \U0001f642, \U0001F606, \U0001F923, \U0001F92A, \U0001F92B,\U0001f600, \U0001f642, \U0001F606, \U0001F923, \U0001F92A, \U0001F92B, \U0001f600, \U0001f642, \U0001F606, \U0001F923, \U0001F92A, \U0001F92B, \U0001f600, \U0001f642, Anladığını düşünüyorum hahahahahhahahah!')
