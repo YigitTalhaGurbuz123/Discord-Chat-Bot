@@ -1,2 +1,3 @@
-# Discord-Chat-Bot
-Dicord botu
+Talha-Bot
+
+Bu botu discord'da botunuzun tokeni ile kullanabilirsiniz!
